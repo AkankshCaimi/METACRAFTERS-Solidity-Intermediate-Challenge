@@ -1,6 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
+/*
+    REQUIREMENTS:
+        1. A new token is created on Ethereum
+        2. Tokens are minted to your wallet
+
+*/
+
 // imports from https://www.openzeppelin.com/contracts
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
