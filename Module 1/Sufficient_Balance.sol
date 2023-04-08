@@ -2,6 +2,14 @@
 
 pragma solidity ^0.8.7;
 
+/*
+    REQUIREMENTS:
+        1. Contract successfully uses require()
+        2. Contract successfully uses assert()
+        3. Contract successfully uses revert() statements
+
+*/
+
 contract Sufficient_Balance {
 
     int cost;      // cost of an article
